@@ -49,7 +49,6 @@ public class Market implements iMarketBehaviour, iQueueBehaviour,iReturnOrder {
             queue.remove(actor);
         }
     }
-
     /**
      * The main method of operation of the store
      */
@@ -59,7 +58,6 @@ public class Market implements iMarketBehaviour, iQueueBehaviour,iReturnOrder {
         giveOrder();
         releaseFromQueue();
     }
-
     /**
      *The method of receiving the order by customers
      * @exception TaxInspector Changing further actions upon receipt of the order TaxInspector
